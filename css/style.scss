@@ -1,0 +1,23 @@
+// шрифт по умолчанию
+$fontfamily:"Lato";
+
+// переменные
+$minwidth:320px;
+
+ html,body{
+    // есть в обнулялке для фулскрин
+height: 100%;
+}
+
+// оболочка
+.wrapper{
+    // полный экран + на всю высоту
+overflow: hidden;
+min-height: 100%;
+}
+
+// основная сетка
+.container{
+max-width: 1130px;
+padding: 0 15px;
+}
