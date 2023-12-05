@@ -1,13 +1,4 @@
-html, body {
+html,
+body {
   height: 100%;
-}
-
-.wrapper {
-  overflow: hidden;
-  min-height: 100%;
-}
-
-.container {
-  max-width: 1130px;
-  padding: 0 15px;
 }/*# sourceMappingURL=style.css.map */
