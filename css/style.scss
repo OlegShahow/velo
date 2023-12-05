@@ -2,22 +2,30 @@
 $fontfamily: "Lato";
 
 // ---------------   ibg   ----------------
+// .ibg {
+//   background-position: center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   position: relative;
+// }
+
+// .ibg img {
+//   width: 0;
+//   height: 0;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   opacity: 0;
+//   visibility: hidden;
+// }
+
 .ibg {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+  img{display: none;}
 }
 
-.ibg img {
-  width: 0;
-  height: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-}
 // \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 // переменные
@@ -42,4 +50,30 @@ body {
   padding: 0 15px;
 }
 
-// основной блок ---------------------------
+// основной блок ----    // фулскрин картинка руль адаптивная-----------------------
+.page {
+    // фулскрин картинка руль адаптивная
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 0;
+}
+.main-screen {
+  // фулскрин картинка руль адаптивная
+flex: 1 0 100%;
+position: relative;
+  &__bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+.content{
+
+}
